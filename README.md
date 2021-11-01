@@ -5,3 +5,4 @@ Aufgabenstellung: ca. 5-Runden S-Box Algorithmus
 
 a) Charakteristik mit hoher Wahrscheinlichkeit
 b) dominante Appriximation
+c) test
