@@ -2,3 +2,4 @@
 **/Scripts
 pyvenv.cfg
 **/venv
+**/__pycache__
