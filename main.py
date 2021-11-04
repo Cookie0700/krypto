@@ -1,8 +1,4 @@
-
-
-
 from slogic import importSBox
-
 
 s1 = importSBox('SBox/SBox1.csv')
 print(s1)
