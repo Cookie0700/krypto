@@ -5,6 +5,7 @@
 -> 10-20 Bit Plain-Text
 
 a) Charakteristik mit hoher Wahrscheinlichkeit
+<<<<<<< HEAD
 b) dominante Approximation
 
 | Name                                       | Vorlesung                    | Variable |
@@ -36,3 +37,9 @@ Blocklänge 10 bit -> ΔE von 0 bis (2^10 = 1024) 1023
 ### Schlüsselkandidaten
 Dr-1 -> D0 - D4
 2^5 Ausgabemöglichkeiten für D0
+=======
+
+b) dominante Appriximation
+
+c) test
+>>>>>>> 6b50ebbe334da19f7c8e8e2d0ad7abcf48fe4be1
