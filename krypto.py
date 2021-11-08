@@ -24,10 +24,15 @@ def encrypt(s1: dict, s2: dict) -> list:
         text_per_round.append(text)
     return text_per_round
 
+def single_round_encrypt(s1: dict, s2: dict, text: int) -> int:
+    key = int('0101010101', 2)
+    (first,second) = split10Bit(text)
+    first_mapped = s1[first]
+    second_mapped = s2[second]
+    new_text = key ^ concat5bit(first_mapped,second_mapped)
+    return new_text
 
 
-
-
-
+    
 
 
