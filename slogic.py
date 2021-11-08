@@ -17,7 +17,6 @@ def calculate_ddt(SBox_file: csv = 'SBox/SBox1.csv',delta_E_range: int = 32,delt
             delta_E: int = a ^ e
             delta_A: int = s_box[a] ^ s_box[e]
             if delta_A > 0 and delta_E > 0:
-                print(delta_A, delta_E)
                 ddt[delta_A][delta_E].append((e,a))
     return ddt
 
@@ -25,7 +24,6 @@ def size_of_ddt(ddt: list) -> list:
     ddt_size = ([[0 for x in range(32)] for y in range(32)])
     for delta_A in range(1,32):
         for delta_E in range(1,32):
-            print(delta_A,delta_E)
             ddt_size[delta_A][delta_E] = len(ddt[delta_A][delta_E])
 
     return ddt_size
