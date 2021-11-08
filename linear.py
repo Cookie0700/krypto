@@ -12,14 +12,14 @@ def linear_check(file):
             # Input = {row[0]}
             # Output = {row[1]}
 
-linear_check('bits.csv')
+# linear_check('bits.csv')
 
 def binary_combinations(bit_length): 
     for i in range(2**bit_length):
         s="{:05b}".format(i)
         print(s)
         
-# binary_combinations(5)
+binary_combinations(5)
 
 def test():
     a = '001'
