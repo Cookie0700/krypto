@@ -8,18 +8,18 @@ a) Charakteristik mit hoher Wahrscheinlichkeit
 b) dominante Approximation
 
 | Name                                       | Vorlesung                    | Variable |
-|:-------------------------------------------|:-----------------------------|:-------|
-| S-Box                                      | nicht linear, "schlecht"     |        |
-| Permutation                                | -                            |        |
-| Runden                                     | r = 5                        |        |
-| Blocklänge                                 | n = 10 bit                   |        |
-| Eingabedifferenz                           | ΔE                           |        |
-| Ausgabedifferenz                           | ΔA                           |        |
-| S-Box 1                                    | S1                           |        |
-| S-Box 2                                    | S2                           |        |
-| Wahrscheinlichkeit für Differenzenübergang | p                            |        |
-| Charakteristik                             | D = (D0 = D1 = D2 = D3 = D4) ||
-| Kandidaten für richtige Schlüssel | Dr-1 |
+|:-------------------------------------------|:-----------------------------|:---------|
+| S-Box                                      | nicht linear, "schlecht"     |          |
+| Permutation                                | -                            |          |
+| Runden                                     | r = 5                        |          |
+| Blocklänge                                 | n = 10 bit                   |          |
+| Eingabedifferenz                           | ΔE                           |          |
+| Ausgabedifferenz                           | ΔA                           |          |
+| S-Box 1                                    | S1                           |          |
+| S-Box 2                                    | S2                           |          |
+| Wahrscheinlichkeit für Differenzenübergang | p                            |          |
+| Charakteristik                             | D = (D0 = D1 = D2 = D3 = D4) |          |
+| Kandidaten für richtige Schlüssel          | Dr-1                         |          |
 
 
 
