@@ -14,17 +14,11 @@ print(is_not_linear(s2))
 count_linear(s2)
 
 s3 = importSBox('SBox/SBox3.csv')
-#print(encrypt(s1, s2))
-
-
 print(is_not_linear(s3))
 count_linear(s3)
 
-# print(is_not_linear(s1))
-count_linear(s3)
 ddt = calculate_ddt(SBox_file='SBox/SBox1.csv')
 ddt_size = size_of_ddt(ddt)
 
-#print(ddt)
 test(ddt)
 
