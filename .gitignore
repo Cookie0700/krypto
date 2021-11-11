@@ -3,3 +3,4 @@
 pyvenv.cfg
 **/venv
 **/__pycache__
+ddt.csv

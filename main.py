@@ -18,6 +18,6 @@ print(is_not_linear(s3))
 ddt = calculate_ddt(SBox_file='SBox/SBox1.csv')
 ddt_size = size_of_ddt(ddt)
 
-print(ddt)
+#print(ddt)
 test(ddt)
 
