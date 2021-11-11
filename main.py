@@ -1,4 +1,4 @@
-from slogic import calculate_ddt, importSBox, size_of_ddt
+from slogic import calculate_ddt, distribution_percentage, importSBox, size_of_ddt
 from krypto import encrypt
 from linear import is_not_linear
 
@@ -17,3 +17,5 @@ ddt_size = size_of_ddt(ddt)
 
 # for row in range(32):
 #     print(ddt_size[row])
+
+print(distribution_percentage(ddt))

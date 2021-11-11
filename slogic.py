@@ -20,10 +20,19 @@ def calculate_ddt(SBox_file: csv = 'SBox/SBox1.csv',delta_E_range: int = 32,delt
                 ddt[delta_A][delta_E].append((e,a))
     return ddt
 
-def size_of_ddt(ddt: list) -> list:
+def size_of_ddt(ddt: list[list[list]]) -> list[list[int]]:
     ddt_size = ([[0 for x in range(32)] for y in range(32)])
     for delta_A in range(1,32):
         for delta_E in range(1,32):
             ddt_size[delta_A][delta_E] = len(ddt[delta_A][delta_E])
 
     return ddt_size
+
+def distribution_percentage(ddt: list[list[list]]) -> list[list[float]]:
+    ddt_size_relative = size_of_ddt(ddt)
+    for delta_A in range(32):
+        for delta_E in range(32):
+            ddt_size_relative[delta_A][delta_E] = float(ddt_size_relative[delta_A][delta_E]/32)
+    return ddt_size_relative
+
+
