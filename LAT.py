@@ -15,13 +15,9 @@ for j in range(32):
         count = 0
         if bin(j) == bin(k):
             count += 1
-         
-        
-
-
 
 rows = []
-for j in range a:
+for j in range(a):
     rows.append
 
 print(headerlist)
