@@ -1,3 +1,4 @@
+from output_ddt import test
 from slogic import calculate_ddt, importSBox
 from krypto import encrypt
 
@@ -10,3 +11,8 @@ s2 = importSBox('SBox/SBox2.csv')
 print(encrypt(s1, s2))
 
 print(calculate_ddt())
+
+print("\n\n")
+
+ddt = calculate_ddt()
+test(ddt)
