@@ -19,3 +19,4 @@ def calculate_ddt(SBox_file: csv = 'SBox/SBox1.csv',delta_E_range: int = 32,delt
             ddt[delta_A][delta_E].append((e,a))
     return ddt
 
+ 
