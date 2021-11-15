@@ -1,7 +1,7 @@
 import random
 import csv
 
-count = 10000
+count = 1000
 list32 = list(range(32))
 
     
