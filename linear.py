@@ -6,6 +6,16 @@ def is_not_linear(sbox):
         for j in range(32): 
             # print(i ^ j)
             if sbox[i ^ j] != (sbox[i] ^ sbox[j]):
-                print(i, j)
                 return True
     return False
+
+def count_linear(sbox):
+    linear_count = []
+    linear_counter = 0 
+    for i in range(32):
+        for j in range(32): 
+            if sbox[i ^ j] == (sbox[i] ^ sbox[j]):
+                linear_count.append((i, j))
+                linear_counter += 1
+    print("Linear Counter: ", linear_counter)
+    print("Linear Counter List: ", linear_count)
