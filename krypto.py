@@ -1,7 +1,3 @@
-# Das ist der Beginn einer wunderbaren Freundschaft <3
-# test
-#:D
-
 def split10Bit(num: int) -> tuple:
     binary = bin(num)[2:].rjust(10, '0')
     return (int(binary[:5], 2), int(binary[5:], 2))
