@@ -1,5 +1,6 @@
 import csv
-#from prettytable import PrettyTable
+from beautifultable import BeautifulTable
+from beautifultable.enums import ALIGN_LEFT, ALIGN_RIGHT
 
 #def out_ddt(ddt: list):
     #with open('ddt', mode='w') as ddt_file:
@@ -16,27 +17,25 @@ def csv_print(ddt: list):
         writer.writerow(row)
     f.close()
 
-#def test2(ddt: list):
-
-"""
-def test2(ddt: list):
-    r = []
+def ddt_table_values(ddt: list):
+    header = []
     for x in range(31):
-        r.append(x) 
-    t = PrettyTable()
-    t.field_names = r
-    t.align='l'
-    t.border=False
+        header.append(str(x+1)) 
+    ddt_table = BeautifulTable(maxwidth=1337, default_alignment=ALIGN_LEFT, precision=2)
+    ddt_table.columns.header = header
     f = open('ddt2.csv', 'w', newline='')
     writer = csv.writer(f, delimiter=' ', quotechar='|')
     for i in range(1,32):
         row = []
         for j in range(1,32):
-#            string = ddt[i][j][0]
-            row.append((ddt[i][j])[:2:2])
-        t.add_row(row)
-        print(row)
+            # Ignore '[]'
+            if str(ddt[i][j]) == '[]':
+                row.append('')
+            else:
+                row.append(str(ddt[i][j][:2:2]).strip("[]"))
+        ddt_table.rows.append(row)
+        # print(row)
         writer.writerow(row)
     f.close()
-    print(t)
-"""
+    return ddt_table
+    
