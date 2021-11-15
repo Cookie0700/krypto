@@ -1,4 +1,5 @@
-from output_ddt import test
+from output_ddt import csv_print
+#from output_ddt import test2
 from slogic import calculate_ddt, importSBox
 from krypto import encrypt
 
@@ -15,4 +16,5 @@ print(calculate_ddt())
 print("\n\n")
 
 ddt = calculate_ddt()
-test(ddt)
+csv_print(ddt)
+#test2(ddt)
