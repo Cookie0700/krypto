@@ -1,6 +1,5 @@
-from slogic import calculate_ddt, distribution_percentage, importSBox, size_of_ddt
-from slogic import calculate_ddt, importSBox, size_of_ddt
-from output_ddt import test
+from output_ddt import csv_print
+#from output_ddt import test2
 from slogic import calculate_ddt, importSBox
 from krypto import encrypt
 from linear import is_not_linear, count_linear
@@ -23,3 +22,6 @@ ddt_size = size_of_ddt(ddt)
 #print(ddt)
 test(distribution_percentage(ddt))
 
+ddt = calculate_ddt()
+csv_print(ddt)
+#test2(ddt)
