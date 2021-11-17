@@ -15,6 +15,10 @@ s3 = importSBox('SBox/Random_SBox/151.csv')
 print(is_not_linear(s3))
 count_linear(s3)
 
+s4 = importSBox('SBox/Random_SBox/721.csv')
+print(is_not_linear(s4))
+count_linear(s4)
+
 ddt = calculate_ddt(SBox_file='SBox/Random_SBox/151.csv')
 ddt_size = size_of_ddt(ddt)
 
