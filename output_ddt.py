@@ -32,7 +32,7 @@ def ddt_table_values(ddt: list):
             if str(ddt[i][j]) == '[]':
                 row.append('')
             else:
-                row.append(str(ddt[i][j][:2:2]).strip("[]"))
+                row.append(str(ddt[i][j][::]).strip("[]"))
         ddt_table.rows.append(row)
         # print(row)
         writer.writerow(row)

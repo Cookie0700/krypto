@@ -1,0 +1,5 @@
+- also eigentlich bräuchten wir eine Tabelle, die uns die EIngaben ganze am Anfang auf die Differenz gnaz am Ende mappt
+- Dann sehen wir, dass bei einer Eingabe, eine DIfferenz am häufigstn auftritt!!
+- SObald wir das haben, können wir die Eingabe, die am Häufigsten rauskommt ganz viele davon eingeben 
+- Dann schauen wir was nach Runde 5 für ein Klaurtext kommt??? dann D(r-1) - Klartext am Schluss == Shlüssel 
+- Dann schlüsselverteilung -> Welcher kommt am Häufigsten vor? -> Könnte key sein 
