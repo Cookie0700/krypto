@@ -14,6 +14,8 @@ a) Charakteristik mit hoher Wahrscheinlichkeit (-> Schlüsselberechnung)
 
 b) dominante Approximation
 
+![drawio](krypto.svg)
+
 | Name                                       | Vorlesung                    | Code |
 |:-------------------------------------------|:-----------------------------|:-----|
 | S-Box 1, nicht linear                      | S1                           |      |
