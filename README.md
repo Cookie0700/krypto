@@ -14,7 +14,7 @@ a) Charakteristik mit hoher Wahrscheinlichkeit (-> Schlüsselberechnung)
 
 b) dominante Approximation
 
-![drawio](krypto.svg)
+![drawio](images/krypto.svg)
 
 | Name                                       | Vorlesung                    | Code |
 |:-------------------------------------------|:-----------------------------|:-----|
