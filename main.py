@@ -11,6 +11,8 @@ from linear import is_not_linear, count_linear
 # print(is_not_linear(s2))
 # count_linear(s2)
 
+
+
 s3 = importSBox('SBox/Random_SBox/151.csv')
 print(is_not_linear(s3))
 count_linear(s3)
@@ -18,6 +20,8 @@ count_linear(s3)
 s4 = importSBox('SBox/Random_SBox/721.csv')
 print(is_not_linear(s4))
 count_linear(s4)
+
+print(encrypt(s3,s4))
 
 ddt = calculate_ddt(SBox_file='SBox/Random_SBox/151.csv')
 ddt_size = size_of_ddt(ddt)
