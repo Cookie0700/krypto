@@ -2,13 +2,13 @@
 
 ### Allgemeines
 Wichtigste Methoden zum Angriff auf symmetrische Chiffren
--> differenzielle Kryptanalyse
--> lineare Kryptanalyse
+* differenzielle Kryptanalyse
+* lineare Kryptanalyse
 
 ### Aufgabe 
--> 5-Runden S-Box-Algorithmus
--> 10 Bit Plaintext P
--> Schlechte S-Boxen
+* 5-Runden S-Box-Algorithmus
+* 10 Bit Plaintext P
+* Schlechte S-Boxen
 
 a) Charakteristik mit hoher Wahrscheinlichkeit (-> Schlüsselberechnung)
 b) dominante Approximation
