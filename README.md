@@ -11,6 +11,7 @@ Wichtigste Methoden zum Angriff auf symmetrische Chiffren
 * Schlechte S-Boxen
 
 a) Charakteristik mit hoher Wahrscheinlichkeit (-> Schlüsselberechnung)
+
 b) dominante Approximation
 
 | Name                                       | Vorlesung                    | Code |
